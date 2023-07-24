@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* 폰트적용 */
+@import "reset.css";
+
+/* 1 : 1180px
+2 : 580px
+3 : 380px
+4 : 280px*/
+
+#custombox{
+    width: 100%;
+    background-color: gainsboro;
+    padding: 200px 0 150px;
+}
+
+#custombox .inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+#custombox .inner h1 {
+    font: bold 22px/1 "arial";
+    color: #555;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#custombox .inner>h2{
+    font: 16px/1 "arial";
+    color: #777;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#custombox .inner .wrap{
+    width: 100%;
+}
+
+#custombox .inner .wrap::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#custombox .inner .wrap article {
+    width: 280px;
+    float: left;
+    margin-right: 20px;
+}
+
+#custombox .inner .wrap article:last-child{
+    margin-right: 0;
+}
+
+#custombox .inner .wrap article .pic{
+    width: 100%;
+    height: 120px;
+    background-color: #555;
+    margin-bottom: 20px;
+}
+
+#custombox .inner .wrap article h2{
+    font: bold 16px/1 "arial";
+    color: #555;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+#custombox .inner .wrap article p {
+    font: 14px/1.2 "arial";
+    color: #666;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#custombox .inner .wrap article a {
+    font: bold 12px/1 "arial";
+    color: #333;
+    border: 1px solid #888;
+    display: inline-block;
+    padding: 5px 20px;
+    transform: translateX(175px);
+}
+
+
